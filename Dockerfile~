@@ -67,7 +67,7 @@ RUN pip3  install pipreqs
 
 
 RUN mv requirements.txt requirements.txt001
-RUN pipreqs ./
+pipreqs ./
 
 
 #安装依赖
